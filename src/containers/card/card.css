@@ -1,0 +1,130 @@
+@import '../../../node_modules/react-modal-video/scss/modal-video.scss';
+
+.card {
+  width: 460px;
+  height: 204px;
+  position: relative;
+  text-align: left;
+  display: flex;
+}
+
+.card img{
+  display: inline-block;
+  width: 136px;
+  height: 204px;
+}
+
+.card-info{
+  display: inline-block;
+  position: relative;
+  right: 0px;
+  margin: 15px 25px;
+  width: 326px;
+}
+
+.title {
+  color: #687B82;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.popularity {
+  color: #687B82;
+  font-size: 14px;
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+}
+
+.overview {
+  display: block;
+  color: #687B82;
+  font-size: 12px;
+  position: relative;
+  height: 3.6em;
+  overflow: hidden;
+}
+
+.overview:after {
+  content: "";
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 70%;
+  height: 1.2em;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 50%);
+}
+
+.card-header {
+  width: 100%;
+  position: relative;
+}
+
+.date-genre{
+  font-size: 11px;
+  color: #3D484C;
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.card-genre{
+  display: inline-block;
+  position: relative;
+}
+
+.date-card{
+  display: inline-block;
+}
+
+.genre-card{
+  position: absolute;
+  right: 0px;
+  display: inline-block;
+  width: 50%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: right;
+}
+
+.card-footer{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+.trailer-btn{
+  display: inline-block;
+  color: #00BDFF;
+  font-size: 12px;
+  border: 1px solid #00BDFF;
+  padding: 8px 15px;
+  border-radius: 3px;
+}
+
+.trailer-btn:hover{
+  background-color: #00BDFF;
+  color: white;
+  cursor: pointer;
+}
+
+.add-favorites{
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+  font-size: 12px;
+  color: #87969C;
+  bottom: 0px;
+  margin-bottom: 10px;
+}
+
+iframe {
+  width: 940px;
+  height: 530px;
+}
+
+.modal-video {
+  background-color: rgba(0,0,0,0.5);
+}

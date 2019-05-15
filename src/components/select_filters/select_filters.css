@@ -1,0 +1,18 @@
+.select-filters-outer {
+  width: 100%;
+  height: 60px;
+  margin: 20px 60px;
+  text-align: left;
+}
+
+.select-filters {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.select-filters label {
+  color: #687B82;
+  font-size: 12px;
+  margin-bottom: 15px;
+  display: block;
+}
